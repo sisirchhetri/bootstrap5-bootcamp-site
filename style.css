@@ -1,0 +1,15 @@
+/* adding an block element to separate the navbar from the home img */
+body::before{
+    display: block;
+    content: " ";
+    height: 50px;
+}
+/* medium screen */
+@media(min-width:768px){
+    .news-input{
+        width: 50%;
+    }
+}
+#map{
+    width: 100%; height: 100%; border-radius: 10px;
+}
